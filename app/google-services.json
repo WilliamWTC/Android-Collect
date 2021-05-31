@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300381769848",
+    "project_id": "collect-f4ce4",
+    "storage_bucket": "collect-f4ce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300381769848:android:ffcfe108733d2183855d8d",
+        "android_client_info": {
+          "package_name": "com.example.collect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300381769848-qfmpau9qj6fj9ee4snepc483hk051do7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOwlCeHheVoMRe2M4734RqfoElfzjXrf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300381769848-qfmpau9qj6fj9ee4snepc483hk051do7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

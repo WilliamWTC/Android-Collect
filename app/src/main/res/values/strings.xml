@@ -8,4 +8,9 @@
     <string name="register">Register</string>
     <string name="collect">Collect</string>
     <string name="welcome">Welcome</string>
+    <string name="Header">Collect</string>
+    <string name="qoute">collect collect collect</string>
+    <string name="logout">Logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 </resources>

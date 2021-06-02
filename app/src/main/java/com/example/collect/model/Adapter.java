@@ -1,5 +1,6 @@
 package com.example.collect.model;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.collect.ObjectDetails;
 import com.example.collect.R;
 
 import java.util.List;
@@ -38,7 +40,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Item clicked", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(v.getContext(), ObjectDetails.class);
+                v.getContext().startActivity(i);
             }
         });
     }

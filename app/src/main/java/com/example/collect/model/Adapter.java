@@ -41,6 +41,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), ObjectDetails.class);
+                i.putExtra("title", titles.get(position));
+                i.putExtra("content", objects.get(position));
                 v.getContext().startActivity(i);
             }
         });
@@ -55,7 +57,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
         TextView objectTitle, objectContent;
         View view;
-
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

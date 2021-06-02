@@ -6,7 +6,7 @@
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="register">Register</string>
-    <string name="collect">Home Page</string>
+    <string name="collect">Collect</string>
     <string name="welcome">Welcome</string>
     <string name="Header">Collect</string>
     <string name="qoute">Your one stop items collection App</string>
@@ -24,4 +24,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_item">Add Category</string>
+    <string name="title_activity_add_item">AddItem</string>
 </resources>

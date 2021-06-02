@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Collect">
         <activity
+            android:name=".AddItem"
+            android:label="@string/title_activity_add_item"
+            android:theme="@style/Theme.Collect.NoActionBar"></activity>
+        <activity
             android:name=".ObjectDetails"
             android:label="@string/title_activity_object_details"
-            android:theme="@style/Theme.Collect.NoActionBar"></activity>
+            android:theme="@style/Theme.Collect.NoActionBar" />
         <activity android:name=".Category" />
         <activity android:name=".HomePage" />
         <activity android:name=".RegisterUser" />

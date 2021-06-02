@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ObjectDetails">
+    tools:context=".AddItem">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,14 +16,17 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            android:backgroundTint="@android:color/transparent"
             app:popupTheme="@style/Theme.Collect.PopupOverlay">
 
-            <TextView
-                android:id="@+id/objectDetailsTitle"
+            <EditText
+                android:id="@+id/addItemTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
-                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:hint="Category Title"
+                android:inputType="textPersonName"
                 android:textStyle="bold" />
 
         </androidx.appcompat.widget.Toolbar>
@@ -31,7 +34,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_object_details" />
+    <include layout="@layout/content_add_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -39,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:backgroundTint="@color/purple_700"
+        app:srcCompat="@drawable/ic_baseline_save_alt_24" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

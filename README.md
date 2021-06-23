@@ -4,6 +4,8 @@ An app that helps users to manage a collection of objects, such as notes or To-d
 
 # Preview
 
+Below is a preview of the Login and Home screens of the app:
+
 <p align="middle">
  <img src="https://github.com/WilliamWTC/Android-Collect/blob/master/Collect_app_login.jpg" width="250" title="preview" alt="preview">
  

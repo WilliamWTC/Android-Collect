@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Collect">
+        <activity android:name=".NotesProgress"></activity>
         <activity
             android:name=".AddItem"
             android:label="@string/title_activity_add_item"
-            android:theme="@style/Theme.Collect.NoActionBar"></activity>
+            android:theme="@style/Theme.Collect.NoActionBar" />
         <activity
             android:name=".ObjectDetails"
             android:label="@string/title_activity_object_details"

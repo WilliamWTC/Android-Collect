@@ -97,6 +97,9 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             case R.id.addObject:
                 startActivity(new Intent(this, AddItem.class));
                 break;
+            case R.id.note_progress:
+                startActivity(new Intent(this, NotesProgress.class));
+                break;
             case R.id.logout:
                 startActivity(new Intent(this, MainActivity.class));
                 break;
